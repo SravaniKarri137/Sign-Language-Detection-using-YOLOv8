@@ -17,3 +17,10 @@ This repository contains a deep learning-based implementation for sign language 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/sign-language-detection.git
+
+## Inference:
+
+2. Test the trained model on new images or videos:
+    ```bash
+    yolo task=detect mode=predict model=path/to/best.pt source=path/to/input
+
